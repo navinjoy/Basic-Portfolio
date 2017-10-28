@@ -3,8 +3,13 @@ body {
     background-image: url("../images/background.png");
 }
 
-p {
-    color: #777777
+.mainsec p {
+    color: #777777;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0px 10px;
+
 }
 
 .clearfix:after {
@@ -23,15 +28,20 @@ header ul {
     right: 50px;
 }
 
-.nav {
-    width: 960px;
-}
-
 nav {
     display: block;
     position: relative;
 }
 
+nav a {
+    color: #ccc;
+}
+
+nav a:hover {
+    background: #e2dcdc;
+    font-size: 20px;
+    color: grey;
+}
 
 header {
     background: #ffffff;
@@ -111,8 +121,17 @@ li a {
     float: left;
 }
 
+.wrapper hr {
+    height: 2px;
+    background: #cccccc;
+    border: none;
+}
+
 .mainsec hr {
     margin-bottom: 20px;
+    height: 2px;
+    background: #cccccc;
+    border: none;
 }
 
 .mainsec #selfpic {
@@ -153,7 +172,7 @@ hr {
     padding: 5px;
     color: #4aaaa5;
     text-align: center;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 #connect {
@@ -172,7 +191,11 @@ hr {
     margin-top: 5px;
 }
 
-footer hr {
+#connect img:hover {
+    border-radius: 50%
+}
+
+.footer hr {
     height: 7px;
     border: 0px;
     background: #4aaaa5;
@@ -239,7 +262,7 @@ form input {
     position: relative;
     display: grid;
     background: lightgrey;
-    border: 0px solid black;
+    border: 1px solid lightgrey;
     width: 200px;
     height: 150px;
 }
@@ -252,30 +275,30 @@ form input {
 
 .box-1 {
     position: absolute;
-    left: 0%;
+    left: 10%;
 }
 
 .box-2 {
     position: absolute;
-    right: 0%;
+    right: 10%;
     /*right: -40px;*/
 }
 
 .box-3 {
     position: absolute;
-    left: 0%;
+    left: 10%;
     top: 180px;
 }
 
 .box-4 {
     position: absolute;
-    right: 0%;
+    right: 10%;
     top: 180px;
 }
 
 
 .box-5 {
-    left: 0%;
+    left: 10%;
     top: 360px;
 }
 
