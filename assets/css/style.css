@@ -1,7 +1,11 @@
 body {
-    font-family: sans-serif, Arial, 'Helvetica Neue', Helvetica;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/background.png");
 }
 
+p {
+    color: #777777
+}
 
 .clearfix:after {
     content: "";
@@ -16,7 +20,7 @@ header ul {
     overflow: hidden;
     float: right;
     position: fixed;
-    right: 100px;
+    right: 50px;
 }
 
 .nav {
@@ -30,13 +34,13 @@ nav {
 
 
 header {
-    background: white;
+    background: #ffffff;
     height: 80px;
-    /*padding: 15px 30px;*/
+    border-color: #cccccc;
 }
 
 h1 h2 {
-	
+
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -62,58 +66,32 @@ h1 a {
 header li {
     list-style-type: none;
     float: left;
-    /*padding-right: 10px;*/
-    /*padding: 25px 10px;*/
     margin: 25px 10px;
     padding-right: 10px;
-    border-right:1px solid #bbb;
+    border-right: 1px solid #bbb;
 }
 
 header li:last-child {
     border-right: none;
-        padding-right: 0px;
-
+    padding-right: 0px;
 }
 
 li a {
     text-decoration: none;
 }
 
-/*.nav-title {
-    width: 300px;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding: 0px;
-    float: left
-}
-
-.nav-items {
-    width: 600px;
-    padding: 20px;
-    float: right;
-}*/
-
-
-
-/*.wrapper {
-	width: 1080px;
-	background-color: transparent;
-	height: 800px;
-    padding: 10px;
-}*/
-
 .mainsec {
-	/*position: fixed;*/
-	margin-left: 50px;
-	margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
     align-self: inherit;
     padding: 20px;
     width: 510px;
     height: 400px;
-    background-color: white;
+    background-color: #ffffff;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-color: #dddddd;
     /*border-width: 10px;*/
     /*position: absolute;*/
 }
@@ -124,62 +102,59 @@ li a {
 
 .portsection {
     padding: 20px;
-  /*margin-bottom: 20px;*/
-  background: #ccc;
-  /*width: 33.3%*/
+    /*margin-bottom: 20px;*/
+    background: #ccc;
+    /*width: 33.3%*/
 }
 
 #boxsec1 {
-    float:left;
+    float: left;
 }
 
-/*#portfolio {
-        height: 500px;
-
-}*/
 .mainsec hr {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mainsec #selfpic {
-	width: 140px;
-	height: 110px;
-	padding: 0px 10px 5px 0px;
-	float: left;
+    width: 140px;
+    height: 120px;
+    padding: 0px 10px 5px 0px;
+    float: left;
 }
 
 .mainsec p {
-	/*padding: 20px;*/
-	color: grey;
-	/*float: left;*/
+    /*padding: 20px;*/
+    color: grey;
+    /*float: left;*/
 }
 
 .mainsec h1 {
-   font-size: 30px;
-   color: #4aaaa5;
-   margin: 15px;
+    font-size: 30px;
+    color: #4aaaa5;
+    margin: 15px;
 }
 
 #connect img {
-	width: 30px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 hr {
-	margin: 0px;
+    margin: 0px;
 }
 
 .mainbody hr {
-	margin-top: 5px;
-	margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 #connect h2 {
-	padding: 5px;
-	color: #4aaaa5;
+    padding: 5px;
+    color: #4aaaa5;
 }
+
 #connect {
-	margin-top: 30px;
+    margin-top: 30px;
     padding: 20px;
     width: 130px;
     height: 70px;
@@ -188,69 +163,60 @@ hr {
     border-color: #333;*/
     float: left;
     position: relative;
-
 }
 
 #connect li {
-	float: left;
-	padding: 5px;
-	margin-top: 5px;
-
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 footer hr {
-	height: 7px;
-	border: 0px;
-	background: #4aaaa5;
+    height: 7px;
+    border: 0px;
+    background: #4aaaa5;
 }
+
 footer {
-    /*align-self: center;*/
-    /*width: 960px;*/
-    /*padding: 20px;*/
-    /*margin: 20px;*/
     background-color: #666666;
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
     height: 80px;
-      /*display: block;*/
-      align-items: center;
-      /*align-content: center;*/
-      /*vertical-align: middle;*/
-      margin: auto;
-      text-align: center;
     align-items: center;
-    /*position: relative;*/
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
 footer h4 {
-	font-size: x-small;
-	padding: 27px;
-	color: lightgrey;
+    font-size: x-small;
+    padding: 27px;
+    color: lightgrey;
 }
+
 form input {
     width: 400px;
     margin-top: 5px;
     height: 25px;
     color: lightgrey;
-
 }
+
 #submit {
     width: 80px;
     background-color: #4aaaa5;
     border: none;
-    /*border-style: ;*/
     color: white;
     padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    border-radius:0 !important;
+    border-radius: 0 !important;
     height: auto;
-    /*margin: 4px 2px;*/
 }
+
 #message {
     height: 100px;
     width: 400px;
@@ -265,72 +231,60 @@ form input {
 }
 
 .box-set {
-  position: relative;
-  /*height: 400px;*/
-  /*background: darkgray;*/
+    position: relative;
 }
 
 .box {
-  /* Absolute Position */
-  position: relative;
-  display: grid;
-  background: lightgrey;
-  border: 0px solid black;
-  width: 200px;
-  height: 150px;
-}
-.box #portfolioimg {
-  /*display: block;*/
+    position: relative;
+    display: grid;
+    background: lightgrey;
+    border: 0px solid black;
     width: 200px;
-  height: 150px;
-  background-size: cover;
+    height: 150px;
+}
+
+.box #portfolioimg {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
 }
 
 .box-1 {
     position: absolute;
-  left: 0%;
+    left: 0%;
 }
 
 .box-2 {
     position: absolute;
-  right: 0%;
-  /*right: -40px;*/
+    right: 0%;
+    /*right: -40px;*/
 }
 
-.box-3 {  
+.box-3 {
     position: absolute;
-  left: 0%;
-  top: 180px;
+    left: 0%;
+    top: 180px;
 }
 
 .box-4 {
     position: absolute;
-  right: 0%;
-  top: 180px;
-  /*right: -40px;*/
+    right: 0%;
+    top: 180px;
 }
 
 
-.box-5 {  
-  left: 0%;
-  top: 360px;
+.box-5 {
+    left: 0%;
+    top: 360px;
 }
 
 .imagetext {
     position: absolute;
     padding: 8px 0px;
     margin-top: 110px;
-    width:200px;
+    width: 200px;
     text-align: center;
     left: : 10px;
     background: #4aaaa5;
+    color: #ffffff;
 }
-/*.box-3 {
-  left: 10px;
-  bottom: -10px;
-}
-
-.box-4 {
-  bottom: 0;
-}
-*/
