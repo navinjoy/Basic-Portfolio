@@ -96,7 +96,7 @@ li a {
     align-self: inherit;
     padding: 20px;
     width: 610px;
-    height: 400px;
+    height: 600px;
     background-color: #ffffff;
     float: left;
     margin-right: 40px;
@@ -139,6 +139,11 @@ li a {
     height: 120px;
     padding: 0px 10px 5px 0px;
     float: left;
+}
+
+.mainsec #selfpic:hover {
+    width: 420px;
+    height: 360px;
 }
 
 .mainsec p {
